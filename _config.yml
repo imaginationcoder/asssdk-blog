@@ -3,7 +3,7 @@ markdown:         redcarpet
 highlighter:      pygments
 
 # Permalinks
-permalink:        pretty
+permalink:        /:title
 gems: [jekyll-paginate]
 
 # Setup
@@ -12,6 +12,7 @@ tagline:          'Asset service sdk'
 description:      'Asset service sdk'
 url:              http://assets-sdk.herokuapp.com
 baseurl:          /asssdk-blog/
+baseposturl:      /asssdk-blog
 
 author:
   name:           'Maisa Solutions'
