@@ -11,7 +11,7 @@ title:            ASS SDK
 tagline:          'Asset service sdk'
 description:      'Asset service sdk'
 url:              http://assets-sdk.herokuapp.com
-baseurl:          /
+baseurl:          /asssdk-blog
 
 author:
   name:           'Maisa Solutions'
