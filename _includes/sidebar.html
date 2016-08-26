@@ -11,7 +11,7 @@
 
     <nav class="sidebar-nav">
     {% for post in site.posts %}
-        <a class="sidebar-nav-item{% if post.url == node.url %} active{% endif %}" href="{{ post.url }}">
+        <a class="sidebar-nav-item{% if post.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ post.url }}">
           {{ post.title }}
         </a>
     {% endfor %}
