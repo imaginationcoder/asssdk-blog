@@ -1,0 +1,24 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="{{ site.baseurl }}">
+          {{ site.title }}
+        </a>
+      </h1>
+      <p class="lead">{{ site.description }}</p>
+    </div>
+
+    <nav class="sidebar-nav">
+    {% for post in site.posts %}
+        <a class="sidebar-nav-item{% if post.url == node.url %} active{% endif %}" href="{{ post.url }}">
+          {{ post.title }}
+        </a>
+    {% endfor %}
+
+
+    </nav>
+
+    <p class="copy-right">&copy; {{ site.time | date: '%Y' }} Maisa Solutions. All rights reserved.</p>
+  </div>
+</div>

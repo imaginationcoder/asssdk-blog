@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+gems: [jekyll-paginate]
+
+# Setup
+title:            ASS SDK
+tagline:          'Asset service sdk'
+description:      'Asset service sdk'
+url:              http://assets-sdk.herokuapp.com
+baseurl:          /
+
+author:
+  name:           'Maisa Solutions'
+  url:            https://twitter.com/maisasolutions
+
+paginate:         2
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/maisaengineering/ass-sdk
